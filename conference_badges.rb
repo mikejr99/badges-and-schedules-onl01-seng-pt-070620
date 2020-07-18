@@ -9,6 +9,7 @@ end
 def assign_rooms(array)
   new_array=[]
   array.each_with_index do |name, room|
+    room + 1
     new_array << "Hello, #{name}! You'll be assigned to room #{room}!"
   end
   new_array
